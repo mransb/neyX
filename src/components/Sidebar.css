@@ -78,7 +78,7 @@ h2 {
 
 .sidebar {
   flex: 1 1 0;
-  max-width: 300px;
+  width: 300px;
   padding: 2rem 1rem;
   background-color: #fff;
   z-index: 1;
@@ -207,89 +207,4 @@ h2 {
   .media-scroller {
     display: contents;
   }
-}
-/* .media-scroller--with-groups {
-  grid-auto-columns: 80%;
-} */
-
-/* .media-group {
-  display: grid;
-  gap: var(--_spacer);
-  grid-auto-flow: column;
-} */
-
-/* .media-element {
-  display: grid;
-  grid-template-rows: min-content;
-  gap: var(--_spacer);
-  padding: var(--_spacer);
-  background: var(--surface-2);
-  border-radius: var(--radius-2);
-  box-shadow: var(--shadow-2);
-} */
-
-/* .media-element > img {
-  inline-size: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-} */
-
-/* .snaps-inline {
-  scroll-snap-type: inline mandatory;
-  scroll-padding-inline: var(--_spacer, 1rem);
-} */
-
-/* .snaps-inline > * {
-  scroll-snap-align: start;
-} */
-
-/* general styling */
-
-/* .container {
-  inline-size: min(100% - 4rem, 70rem);
-  margin-inline: auto;
-} */
-
-/* .flow {
-  display: grid;
-  gap: var(--size-3);
-} */
-
-/* .page-header {
-  padding-block: var(--size-9);
-  margin-block-end: var(--size-9);
-  background: var(--gradient-16);
-  color: var(--gray-0);
-  box-shadow: var(--shadow-2);
-} */
-
-/* .page-title {
-  font-size: var(--font-size-fluid-3);
-} */
-
-/* .page-subtitle {
-  font-size: var(--font-size-fluid-1);
-}
-
-.section-title {
-  padding-inline-start: var(--size-6);
-  margin-block: var(--size-9) var(--size-3);
-} */
-.img {
-  width: 6rem;
-  height: 6rem;
-  border-radius: 50%;
-}
-.upload-pp {
-  position: absolute;
-  margin-left: 90px;
-  margin-top: 50px;
-  border-radius: 20px;
-}
-.upload-pic {
-  position: absolute;
-  font-size: 50px;
-  opacity: 0;
-  right: 0;
-  top: 0;
 }
