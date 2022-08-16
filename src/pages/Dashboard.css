@@ -23,7 +23,7 @@ h2 {
   background: #f2f6fa;
 }
 
-.menu-toggle {
+/* .menu-toggle {
   display: none;
   position: fixed;
   top: 2rem;
@@ -111,11 +111,14 @@ h2 {
 
 .sidebar .menu .menu-item:hover {
   border-right: 5px solid #3bba9c;
-}
+} */
 
 .content {
+  width:100%;
+  /* margin-left: 15rem; */
   flex: 1 1 0;
   padding: 2rem;
+
 }
 
 .content h1 {
@@ -293,3 +296,42 @@ h2 {
   right: 0;
   top: 0;
 }
+
+/* .media-element{
+  width:16rem;
+} */
+
+.chart-img1{
+  width:48%;
+  height:20rem;
+  filter: blur(6px);
+}
+.chart-img2{
+  width:52%;
+  height:22rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
